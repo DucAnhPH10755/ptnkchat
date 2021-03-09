@@ -30,7 +30,7 @@ const parseEnvNumber = (key: string): number | undefined => {
  */
 const parseEnvBoolean = (key: string): boolean | undefined => {
   if (process.env[key]) {
-    return String(process.env[key]).toLowerCase() === 'true';
+    return String(process.env[key]).toLowerCase() === 'false';
   } else {
     return undefined;
   }
@@ -82,7 +82,7 @@ export default {
   MAX_MESSAGE_LENGTH: parseEnvNumber('MAX_MESSAGE_LENGTH') || 2000,
 
   // App name (must be the same on Heroku)
-  APP_NAME: parseEnvString('APP_NAME') || 'ptnkchat',
+  APP_NAME: parseEnvString('APP_NAME') || 'donganhchatbot',
 
   // Page persona profile picture
   PERSONA_PROFILE_PICTURE:
