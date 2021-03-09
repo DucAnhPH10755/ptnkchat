@@ -39,14 +39,14 @@ const parseEnvBoolean = (key: string): boolean | undefined => {
 export interface ConfigProps {
   MAINTENANCE: boolean;
   GRAPH_API: string;
-  APP_SECRET: string;
-  PAGE_ACCESS_TOKEN: string;
-  PAGE_VERIFY_TOKEN: string;
+  APP_SECRET: 'd54a74fa8466102989602be9fe58fd5f';
+  PAGE_ACCESS_TOKEN: 'EAADpd8FDaucBAEeQGZCwpPGZBFr4hZC113UTN7ZBU2qgY8p6GWfQnemRuOQE1zM6BgF6vRgDWxvbWU5HhNIgmflFqYmbo8zW80BEt1L5BLITuW3AdynR961YduAZBYyme6aL58cTlZAnYZCAVgyrtwxDZBzGpdNAN6mExHZA3iYOuMb3Xd8yVJQWNGDDG9evoPbsZD';
+  PAGE_VERIFY_TOKEN: 'donganhchatbot';
   MAX_MESSAGE_LENGTH: number;
-  APP_NAME: string;
+  APP_NAME: 'Dong Anh Chatbot';
   PERSONA_PROFILE_PICTURE: string;
-  HEROKU_API_KEY: string;
-  MONGO_URI: string;
+  HEROKU_API_KEY: '8404fad9-1f18-4e9a-92b1-f49319168ca5';
+  MONGO_URI: 'mysql://nko7emjqmwbuw4z3:nf1e4xfa05bwozor@wftuqljwesiffol6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/qjbnfji4c6t3quid';
   HAS_POST_LOG: boolean;
   POST_LOG_ID: string;
   POST_LOG_P1: string;
