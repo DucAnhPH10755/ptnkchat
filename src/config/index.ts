@@ -30,7 +30,7 @@ const parseEnvNumber = (key: string): number | undefined => {
  */
 const parseEnvBoolean = (key: string): boolean | undefined => {
   if (process.env[key]) {
-    return String(process.env[key]).toLowerCase() === 'false';
+    return String(process.env[key]).toLowerCase() === 'true';
   } else {
     return undefined;
   }
@@ -56,7 +56,7 @@ export interface ConfigProps {
   REPORT_LINK: string;
   MAX_PEOPLE_IN_WAITROOM: number;
   MAX_WAIT_TIME_MINUTES: number;
-  ADMIN_PASSWORD: string;
+  ADMIN_PASSWORD: 'password';
   MAX_SESSION_MINUTES: number;
   DEV_ID: string;
   VERSION: string;
